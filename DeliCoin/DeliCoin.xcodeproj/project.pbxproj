@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20245CDD1BD3E347007A6435 /* CoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20245CDC1BD3E347007A6435 /* CoverViewController.m */; };
+		20963D1C1BD2EBC9001162A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20963D1B1BD2EBC9001162A2 /* main.m */; };
+		20963D1F1BD2EBC9001162A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20963D1E1BD2EBC9001162A2 /* AppDelegate.m */; };
+		20963D221BD2EBC9001162A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20963D211BD2EBC9001162A2 /* ViewController.m */; };
+		20963D251BD2EBC9001162A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20963D231BD2EBC9001162A2 /* Main.storyboard */; };
+		20963D271BD2EBC9001162A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20963D261BD2EBC9001162A2 /* Images.xcassets */; };
+		20963D2A1BD2EBC9001162A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20963D281BD2EBC9001162A2 /* LaunchScreen.xib */; };
+		20963D361BD2EBC9001162A2 /* DeliCoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20963D351BD2EBC9001162A2 /* DeliCoinTests.m */; };
+		20963D411BD2EC53001162A2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D3F1BD2EC53001162A2 /* Bolts.framework */; };
+		20963D421BD2EC53001162A2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D401BD2EC53001162A2 /* Parse.framework */; };
+		20963D451BD2EC7B001162A2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D441BD2EC7B001162A2 /* AudioToolbox.framework */; };
+		20963D471BD2EC85001162A2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D461BD2EC85001162A2 /* CFNetwork.framework */; };
+		20963D491BD2EC8F001162A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D481BD2EC8F001162A2 /* CoreGraphics.framework */; };
+		20963D4B1BD2EC99001162A2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D4A1BD2EC99001162A2 /* CoreLocation.framework */; };
+		20963D4D1BD2ECA3001162A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D4C1BD2ECA3001162A2 /* QuartzCore.framework */; };
+		20963D4F1BD2ECAE001162A2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D4E1BD2ECAE001162A2 /* Security.framework */; };
+		20963D511BD2ECB5001162A2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D501BD2ECB5001162A2 /* StoreKit.framework */; };
+		20963D531BD2ECC5001162A2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D521BD2ECC5001162A2 /* SystemConfiguration.framework */; };
+		20963D551BD2ED11001162A2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D541BD2ED11001162A2 /* libz.dylib */; };
+		20963D571BD2ED21001162A2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D561BD2ED21001162A2 /* Accounts.framework */; };
+		20963D591BD2ED28001162A2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D581BD2ED28001162A2 /* Social.framework */; };
+		20963D5C1BD2ED9A001162A2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20963D5B1BD2ED9A001162A2 /* TableViewController.m */; };
+		20963D5E1BD2F138001162A2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 20963D5D1BD2F138001162A2 /* libsqlite3.dylib */; };
+		20963D661BD2FA6B001162A2 /* ZLPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 20963D631BD2FA6B001162A2 /* ZLPanGestureRecognizer.m */; };
+		20963D671BD2FA6B001162A2 /* ZLSwipeableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20963D651BD2FA6B001162A2 /* ZLSwipeableView.m */; };
+		20963D6B1BD3039E001162A2 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20963D691BD3039E001162A2 /* CardView.m */; };
+		20963D6C1BD3039E001162A2 /* CardContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20963D6A1BD3039E001162A2 /* CardContentView.xib */; };
+		20963D6F1BD30B38001162A2 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 20963D6E1BD30B38001162A2 /* Food.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20963D301BD2EBC9001162A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20963D0E1BD2EBC9001162A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20963D151BD2EBC9001162A2;
+			remoteInfo = DeliCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20245CDB1BD3E347007A6435 /* CoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverViewController.h; sourceTree = "<group>"; };
+		20245CDC1BD3E347007A6435 /* CoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverViewController.m; sourceTree = "<group>"; };
+		20963D161BD2EBC9001162A2 /* DeliCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20963D1A1BD2EBC9001162A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20963D1B1BD2EBC9001162A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20963D1D1BD2EBC9001162A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20963D1E1BD2EBC9001162A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20963D201BD2EBC9001162A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20963D211BD2EBC9001162A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20963D241BD2EBC9001162A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20963D261BD2EBC9001162A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20963D291BD2EBC9001162A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		20963D2F1BD2EBC9001162A2 /* DeliCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20963D341BD2EBC9001162A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20963D351BD2EBC9001162A2 /* DeliCoinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliCoinTests.m; sourceTree = "<group>"; };
+		20963D3F1BD2EC53001162A2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		20963D401BD2EC53001162A2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		20963D441BD2EC7B001162A2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		20963D461BD2EC85001162A2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		20963D481BD2EC8F001162A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20963D4A1BD2EC99001162A2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		20963D4C1BD2ECA3001162A2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		20963D4E1BD2ECAE001162A2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		20963D501BD2ECB5001162A2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		20963D521BD2ECC5001162A2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		20963D541BD2ED11001162A2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		20963D561BD2ED21001162A2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		20963D581BD2ED28001162A2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		20963D5A1BD2ED9A001162A2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		20963D5B1BD2ED9A001162A2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		20963D5D1BD2F138001162A2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		20963D621BD2FA6B001162A2 /* ZLPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPanGestureRecognizer.h; sourceTree = "<group>"; };
+		20963D631BD2FA6B001162A2 /* ZLPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPanGestureRecognizer.m; sourceTree = "<group>"; };
+		20963D641BD2FA6B001162A2 /* ZLSwipeableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSwipeableView.h; sourceTree = "<group>"; };
+		20963D651BD2FA6B001162A2 /* ZLSwipeableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSwipeableView.m; sourceTree = "<group>"; };
+		20963D681BD3039E001162A2 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		20963D691BD3039E001162A2 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		20963D6A1BD3039E001162A2 /* CardContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardContentView.xib; sourceTree = "<group>"; };
+		20963D6D1BD30B38001162A2 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		20963D6E1BD30B38001162A2 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20963D131BD2EBC9001162A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20963D5E1BD2F138001162A2 /* libsqlite3.dylib in Frameworks */,
+				20963D591BD2ED28001162A2 /* Social.framework in Frameworks */,
+				20963D571BD2ED21001162A2 /* Accounts.framework in Frameworks */,
+				20963D551BD2ED11001162A2 /* libz.dylib in Frameworks */,
+				20963D531BD2ECC5001162A2 /* SystemConfiguration.framework in Frameworks */,
+				20963D511BD2ECB5001162A2 /* StoreKit.framework in Frameworks */,
+				20963D4F1BD2ECAE001162A2 /* Security.framework in Frameworks */,
+				20963D4D1BD2ECA3001162A2 /* QuartzCore.framework in Frameworks */,
+				20963D4B1BD2EC99001162A2 /* CoreLocation.framework in Frameworks */,
+				20963D491BD2EC8F001162A2 /* CoreGraphics.framework in Frameworks */,
+				20963D471BD2EC85001162A2 /* CFNetwork.framework in Frameworks */,
+				20963D451BD2EC7B001162A2 /* AudioToolbox.framework in Frameworks */,
+				20963D421BD2EC53001162A2 /* Parse.framework in Frameworks */,
+				20963D411BD2EC53001162A2 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20963D2C1BD2EBC9001162A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20963D0D1BD2EBC9001162A2 = {
+			isa = PBXGroup;
+			children = (
+				20963D181BD2EBC9001162A2 /* DeliCoin */,
+				20963D321BD2EBC9001162A2 /* DeliCoinTests */,
+				20963D171BD2EBC9001162A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20963D171BD2EBC9001162A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20963D161BD2EBC9001162A2 /* DeliCoin.app */,
+				20963D2F1BD2EBC9001162A2 /* DeliCoinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20963D181BD2EBC9001162A2 /* DeliCoin */ = {
+			isa = PBXGroup;
+			children = (
+				20963D611BD2FA5B001162A2 /* ZLSwipeableView */,
+				20963D431BD2EC57001162A2 /* Frameworks */,
+				20963D1D1BD2EBC9001162A2 /* AppDelegate.h */,
+				20963D1E1BD2EBC9001162A2 /* AppDelegate.m */,
+				20245CDB1BD3E347007A6435 /* CoverViewController.h */,
+				20245CDC1BD3E347007A6435 /* CoverViewController.m */,
+				20963D201BD2EBC9001162A2 /* ViewController.h */,
+				20963D211BD2EBC9001162A2 /* ViewController.m */,
+				20963D6D1BD30B38001162A2 /* Food.h */,
+				20963D6E1BD30B38001162A2 /* Food.m */,
+				20963D231BD2EBC9001162A2 /* Main.storyboard */,
+				20963D681BD3039E001162A2 /* CardView.h */,
+				20963D691BD3039E001162A2 /* CardView.m */,
+				20963D6A1BD3039E001162A2 /* CardContentView.xib */,
+				20963D261BD2EBC9001162A2 /* Images.xcassets */,
+				20963D281BD2EBC9001162A2 /* LaunchScreen.xib */,
+				20963D191BD2EBC9001162A2 /* Supporting Files */,
+				20963D5A1BD2ED9A001162A2 /* TableViewController.h */,
+				20963D5B1BD2ED9A001162A2 /* TableViewController.m */,
+			);
+			path = DeliCoin;
+			sourceTree = "<group>";
+		};
+		20963D191BD2EBC9001162A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20963D1A1BD2EBC9001162A2 /* Info.plist */,
+				20963D1B1BD2EBC9001162A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20963D321BD2EBC9001162A2 /* DeliCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				20963D351BD2EBC9001162A2 /* DeliCoinTests.m */,
+				20963D331BD2EBC9001162A2 /* Supporting Files */,
+			);
+			path = DeliCoinTests;
+			sourceTree = "<group>";
+		};
+		20963D331BD2EBC9001162A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20963D341BD2EBC9001162A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20963D431BD2EC57001162A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20963D5D1BD2F138001162A2 /* libsqlite3.dylib */,
+				20963D581BD2ED28001162A2 /* Social.framework */,
+				20963D561BD2ED21001162A2 /* Accounts.framework */,
+				20963D541BD2ED11001162A2 /* libz.dylib */,
+				20963D521BD2ECC5001162A2 /* SystemConfiguration.framework */,
+				20963D501BD2ECB5001162A2 /* StoreKit.framework */,
+				20963D4E1BD2ECAE001162A2 /* Security.framework */,
+				20963D4C1BD2ECA3001162A2 /* QuartzCore.framework */,
+				20963D4A1BD2EC99001162A2 /* CoreLocation.framework */,
+				20963D481BD2EC8F001162A2 /* CoreGraphics.framework */,
+				20963D461BD2EC85001162A2 /* CFNetwork.framework */,
+				20963D441BD2EC7B001162A2 /* AudioToolbox.framework */,
+				20963D401BD2EC53001162A2 /* Parse.framework */,
+				20963D3F1BD2EC53001162A2 /* Bolts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20963D611BD2FA5B001162A2 /* ZLSwipeableView */ = {
+			isa = PBXGroup;
+			children = (
+				20963D621BD2FA6B001162A2 /* ZLPanGestureRecognizer.h */,
+				20963D631BD2FA6B001162A2 /* ZLPanGestureRecognizer.m */,
+				20963D641BD2FA6B001162A2 /* ZLSwipeableView.h */,
+				20963D651BD2FA6B001162A2 /* ZLSwipeableView.m */,
+			);
+			name = ZLSwipeableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20963D151BD2EBC9001162A2 /* DeliCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20963D391BD2EBC9001162A2 /* Build configuration list for PBXNativeTarget "DeliCoin" */;
+			buildPhases = (
+				20963D121BD2EBC9001162A2 /* Sources */,
+				20963D131BD2EBC9001162A2 /* Frameworks */,
+				20963D141BD2EBC9001162A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeliCoin;
+			productName = DeliCoin;
+			productReference = 20963D161BD2EBC9001162A2 /* DeliCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20963D2E1BD2EBC9001162A2 /* DeliCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20963D3C1BD2EBC9001162A2 /* Build configuration list for PBXNativeTarget "DeliCoinTests" */;
+			buildPhases = (
+				20963D2B1BD2EBC9001162A2 /* Sources */,
+				20963D2C1BD2EBC9001162A2 /* Frameworks */,
+				20963D2D1BD2EBC9001162A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20963D311BD2EBC9001162A2 /* PBXTargetDependency */,
+			);
+			name = DeliCoinTests;
+			productName = DeliCoinTests;
+			productReference = 20963D2F1BD2EBC9001162A2 /* DeliCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20963D0E1BD2EBC9001162A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Fabiola Ramirez";
+				TargetAttributes = {
+					20963D151BD2EBC9001162A2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					20963D2E1BD2EBC9001162A2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 20963D151BD2EBC9001162A2;
+					};
+				};
+			};
+			buildConfigurationList = 20963D111BD2EBC9001162A2 /* Build configuration list for PBXProject "DeliCoin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20963D0D1BD2EBC9001162A2;
+			productRefGroup = 20963D171BD2EBC9001162A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20963D151BD2EBC9001162A2 /* DeliCoin */,
+				20963D2E1BD2EBC9001162A2 /* DeliCoinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20963D141BD2EBC9001162A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20963D6C1BD3039E001162A2 /* CardContentView.xib in Resources */,
+				20963D251BD2EBC9001162A2 /* Main.storyboard in Resources */,
+				20963D2A1BD2EBC9001162A2 /* LaunchScreen.xib in Resources */,
+				20963D271BD2EBC9001162A2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20963D2D1BD2EBC9001162A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20963D121BD2EBC9001162A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20963D661BD2FA6B001162A2 /* ZLPanGestureRecognizer.m in Sources */,
+				20963D6F1BD30B38001162A2 /* Food.m in Sources */,
+				20963D221BD2EBC9001162A2 /* ViewController.m in Sources */,
+				20963D1F1BD2EBC9001162A2 /* AppDelegate.m in Sources */,
+				20963D671BD2FA6B001162A2 /* ZLSwipeableView.m in Sources */,
+				20963D1C1BD2EBC9001162A2 /* main.m in Sources */,
+				20245CDD1BD3E347007A6435 /* CoverViewController.m in Sources */,
+				20963D5C1BD2ED9A001162A2 /* TableViewController.m in Sources */,
+				20963D6B1BD3039E001162A2 /* CardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20963D2B1BD2EBC9001162A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20963D361BD2EBC9001162A2 /* DeliCoinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20963D311BD2EBC9001162A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20963D151BD2EBC9001162A2 /* DeliCoin */;
+			targetProxy = 20963D301BD2EBC9001162A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20963D231BD2EBC9001162A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20963D241BD2EBC9001162A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20963D281BD2EBC9001162A2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20963D291BD2EBC9001162A2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20963D371BD2EBC9001162A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20963D381BD2EBC9001162A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20963D3A1BD2EBC9001162A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DeliCoin",
+				);
+				INFOPLIST_FILE = DeliCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20963D3B1BD2EBC9001162A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DeliCoin",
+				);
+				INFOPLIST_FILE = DeliCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20963D3D1BD2EBC9001162A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeliCoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeliCoin.app/DeliCoin";
+			};
+			name = Debug;
+		};
+		20963D3E1BD2EBC9001162A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeliCoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeliCoin.app/DeliCoin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20963D111BD2EBC9001162A2 /* Build configuration list for PBXProject "DeliCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20963D371BD2EBC9001162A2 /* Debug */,
+				20963D381BD2EBC9001162A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20963D391BD2EBC9001162A2 /* Build configuration list for PBXNativeTarget "DeliCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20963D3A1BD2EBC9001162A2 /* Debug */,
+				20963D3B1BD2EBC9001162A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20963D3C1BD2EBC9001162A2 /* Build configuration list for PBXNativeTarget "DeliCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20963D3D1BD2EBC9001162A2 /* Debug */,
+				20963D3E1BD2EBC9001162A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20963D0E1BD2EBC9001162A2 /* Project object */;
+}
